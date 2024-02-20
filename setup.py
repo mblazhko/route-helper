@@ -6,7 +6,7 @@ setup(
     version="1.0.0",
     packages=find_packages(),
     include_package_data=True,
-    package_dir={'': 'route_helper'},
+    package_dir={'route_helper': 'helper'},
     description="Help find routes avoiding Switzerland using Google Maps API",
     author="Maks Blazhko",
     author_email="maksym.blazhko.pydev@gmail.com",
