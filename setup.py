@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
-from route_helper import VERSION
+
 
 setup(
     name="route-helper",
-    version=VERSION,
+    version="1.0.0",
     packages=find_packages(),
     include_package_data=True,
     package_dir={'': 'route_helper'},
