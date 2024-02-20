@@ -1,11 +1,12 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from route_helper import VERSION
 
 setup(
     name="route-helper",
     version=VERSION,
-    packages=["route_helper"],
+    packages=find_packages(),
     include_package_data=True,
+    package_dir={'': 'route_helper'},
     description="Help find routes avoiding Switzerland using Google Maps API",
     author="Maks Blazhko",
     namespace_packages=['route_helper'],
