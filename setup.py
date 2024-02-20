@@ -11,7 +11,7 @@ setup(
     namespace_packages=['route_helper'],
     author_email="maksym.blazhko.pydev@gmail.com",
     url="https://github.com/mblazhko/route-helper",
-    install_requires=["googlemaps>=4.10.0"],
+    install_requires=("googlemaps>=4.10.0",),
     classifiers=[
         'Programming Language :: Python',
         'Operating System :: OS Independent',
