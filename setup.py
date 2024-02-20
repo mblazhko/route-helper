@@ -1,17 +1,16 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 setup(
     name="route-helper",
     version="1.0.0",
-    packages=find_packages(),
-    include_package_data=True,
-    package_dir={'route_helper': ''},
+    packages=["route_helper"],
     description="Help find routes avoiding Switzerland using Google Maps API",
     author="Maks Blazhko",
     author_email="maksym.blazhko.pydev@gmail.com",
     url="https://github.com/mblazhko/route-helper",
-    install_requires=("googlemaps>=4.10.0",),
+    setup_requires=["googlemaps>=4.10.0"],
+    install_requires=["googlemaps>=4.10.0"],
     classifiers=[
         'Programming Language :: Python',
         'Operating System :: OS Independent',
